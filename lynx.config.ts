@@ -7,7 +7,7 @@ import { pluginTailwindCSS } from "rsbuild-plugin-tailwindcss";
 
 export default defineConfig({
   server: {
-    host: "10.10.17.28",
+    host: "192.168.0.120",
   },
   plugins: [
     pluginQRCode({
